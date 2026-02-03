@@ -1,3 +1,5 @@
+I wanted to learn React programming, and I am also an avid reader, so I made this. I am a beginner and hope to learn more. Thank you.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
