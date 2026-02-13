@@ -1,8 +1,10 @@
 export default function BooksTable({ books }) {
   return (
-    <table style={{ width: "100%", borderCollapse: "collapse" }}>
+    // <table style={{ width: "100%", borderCollapse: "collapse" }}>
+    <table className="books-table">
       <thead>
-        <tr style={{ background: "#ddd" }}>
+        {/* <tr style={{ background: "#ddd" }}> */}
+        <tr>
           <th>Title</th>
           <th>Pages</th>
           <th>Bookshelves</th>

@@ -39,9 +39,6 @@ export default function Books() {
     <div>
       <h1>📚 My Library</h1>
 
-      <h3>Upload GR CSV</h3>
-      <FileUpload />
-
       {/* Controls */}
       <div style={{ display: "flex", gap: 10, marginBottom: 10 }}>
         <input

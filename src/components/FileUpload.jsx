@@ -37,9 +37,11 @@ function FileUpload() {
           .map(b => ({
             id: b["Book Id"], // Goodreads unique id
             title: b.Title,
+            author: b.Author,
             pages: Number(b["Number of Pages"]) || 0,
             bookshelves: b.Bookshelves || "Unknown",
             endDate: b["Date Read"] || null,
+            rating: b["Average Rating"] || null
           }));
         console.log("Converted books:", converted);
         setBooks(converted) // GLOBAL DATA UPDATE
